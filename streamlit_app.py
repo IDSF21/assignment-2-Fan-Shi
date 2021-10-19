@@ -141,10 +141,8 @@ with col1:
 
 with col2:
     st.header("Demographic and Economic Visualization")
-    st.markdown("Economic and Demographic data can provide good inisghts for elections. In this section, let us review some basic economic "
-            "and demographic factors through visualizations. some factos can indicate clear inisghts for the election result. "
-            "Here we provide several factors inclusing: Population, white people in percent, black people in percent, Hispanic in percent, "
-            "other races in percent, median income, and proverty rate in percent.")
+    st.markdown("Here we provide several factors inclusing: Population, white people population in percent, black people population in percent, Hispanic population in percent, "
+            "other races population in percent, median income, and proverty rate in percent.")
     features_list = ["TotalPopulation", "Hispanic", "White", "Black", "Other Race", "Income", "Poverty"]
 
     st.subheader("Visualization of Factors at Country Level")
