@@ -120,13 +120,12 @@ st.title("Demographical and Economic Insights behind 2016 president election")
 st.header("Introduction")
 st.markdown("The president election of United States is a big shock for people around the world as "
             "Hillary Clinton lose the election despite leading position in all previous polling result."
-            "In this application, we want to discover some insights from economic and demographical factors "
+            "In this application, we want to discover some insights from economic and demographical factors behind the election"
             "through visualization technique. We hope the country and state level visualizations can help people "
-            "better understand the election at 2016. Also, this application is a good tool to have a basic "
+            "have better sense for the election at 2016. Also, this application is a good tool to have a basic "
             "understanding for United States's economic and demographical status. The dataset used in this "
             "application are collected from Kaggle: [election data](https://www.kaggle.com/joelwilson/2012-2016-presidential-elections), "
-            "[census data](https://www.kaggle.com/muonneutrino/us-census-demographic-data), and [employment data]"
-            "(https://www.kaggle.com/jayrav13/unemployment-by-county-us). ")
+            "[census data](https://www.kaggle.com/muonneutrino/us-census-demographic-data).")
 
 col1, col2= st.columns([1, 1])
 with col1:
@@ -181,3 +180,11 @@ with col2:
         type='albersUsa'
     )
     st.write(census_county_chart)
+
+st.header("Some Insights from Comparison")
+st.markdown("At the country level, we cannot obtain a clear correlation between economic & demographical factor and election result. One "
+            "Insight is that democratic lead state tend to have higher median income. However, at state level, we can obtain some clear correlations "
+            "and insights. For nearly all the states, county with more dense population tends to favor democratic party. This observation confirm an opinion "
+            "that most democratic part voters come from cities. Also, counties with more black population tend to support Hillary while counties with more "
+            "white population are more likely to vote for Trump. In New York and California, counties with higher income tend to support Hillary. But in Illinois, "
+            "the connection between income and election result is not significant.")
