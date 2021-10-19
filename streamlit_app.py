@@ -141,7 +141,7 @@ with col1:
 
 with col2:
     st.header("Demographic and Economic Visualization")
-    st.markdown("Here we provide several factors inclusing: Population, white people population in percent, black people population in percent, Hispanic population in percent, "
+    st.markdown("Here we provide several factors including: Total Population, white people population in percent, black people population in percent, Hispanic population in percent, "
             "other races population in percent, median income, and proverty rate in percent.")
     features_list = ["TotalPopulation", "Hispanic", "White", "Black", "Other Race", "Income", "Poverty"]
 
